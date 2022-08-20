@@ -1,12 +1,19 @@
 import Navbar from "../components/navbar"
+import { useState } from "react";
 
 
 export default function Medicamentos(){
-    return(
-        <>
-        <Navbar/>
+    const [showMenu, setShowMenu] = useState(false);
+  
+    return (
+      <>
+        <Navbar 
+        show={showMenu}
+        setShow={setShowMenu}/>
+        
+
         <div>
-            <h1 className="flex justify-center text-gray-500 text-3xl p-5">Medicamentos</h1>
+            <h1 className="flex justify-center text-gray-500 text-3xl pt-20">Medicamentos</h1>
          </div>
         </>
     )

@@ -1,11 +1,19 @@
 import Navbar from "../components/navbar";
+import { useState } from "react";
+
 
 export default function Historico() {
+    const [showMenu, setShowMenu] = useState(false);
+  
     return (
-        <>
-        <Navbar/>
+      <>
+        <Navbar 
+        show={showMenu}
+        setShow={setShowMenu}/>
+       
+
         <div>
-        <h1 className="flex justify-center text-gray-500 text-3xl p-5">Histórico</h1>
+        <h1 className="flex justify-center text-gray-500 text-3xl pt-20">Histórico</h1>
 
         </div>
         </>
