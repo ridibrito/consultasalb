@@ -7,10 +7,7 @@ export default function Historico() {
   
     return (
       <>
-      <Head>
-        <title>Gerenciador de consultas</title>
-        <link rel="shortcut icon" href="/icone.png" />
-      </Head>
+     
         <Navbar 
         show={showMenu}
         setShow={setShowMenu}/>

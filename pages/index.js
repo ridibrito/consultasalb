@@ -12,10 +12,7 @@ export default function Home() {
 
   return (
     <>
-      <Head>
-        <title>Gerenciador de consultas</title>
-        <link rel="shortcut icon" href="/icone.png" />
-      </Head>
+  
       <Navbar show={showMenu} setShow={setShowMenu} />
       <div className="sm:bg-white sm:rounded sm:shadow-md sm:mt-5 sm:pb-5 sm:py-auto  items-center sm:flex sm:max-w-7xl sm:justify-center sm:mx-auto">
         <Card className="w-1/2" />

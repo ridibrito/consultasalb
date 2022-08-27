@@ -1,3 +1,11 @@
+![alb Consultas](https://consultas-zeta.vercel.app/_next/image?url=%2Flogofull.png&w=128&q=75)<br>
+alb Consultas é um gerenciador de consultas e procedimentos clinícos.
+Registra e organiza seu dia a dia médico, além disso cria um prontuário com medicamentos passados em cada consulta, assim como a posologia de cada medicamento.
+![telainicial](consultas.png)
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
