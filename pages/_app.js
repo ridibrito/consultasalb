@@ -5,13 +5,14 @@ import Head from 'next/head'
 
 
 function MyApp({ Component, pageProps }) {
+
   <Head>
   <title>Gerenciador de consultas</title>
   <link rel="shortcut icon" href="/icone.png" />
-</Head>
-  
+  </Head>
+
   return <Component {...pageProps} />
-  
+
 }
 
 export default MyApp

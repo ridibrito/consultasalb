@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Select from 'react-select'
 
 const options = [
@@ -7,16 +7,24 @@ const options = [
   { value: 'Terapia', label: 'Terapia' },
   { value: 'Cirurgia', label: 'Cirurgia' },
   { value: 'Internação', label: 'Internação' },
-  { value: 'TerPronto-socorro', label: 'pronto-socorro' }
+  { value: 'Pronto-socorro', label: 'pronto-socorro' }
 
 ]
-
+const handleKeyUp = (e = options) =>{
+  const { value } = e.target;
+ 
+}
 
 export default function SelectTipo(){
+  const [tipo, setTipo] = useState(options);
+
+
     return (<>
     <Select 
     className='w-1/3'
     options={options} 
+    value={tipo}
+    onChange={e => setTipo(e.target)}
     placeholder="Tipo"/>
     </>
 )}
